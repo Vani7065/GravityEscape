@@ -1,0 +1,47 @@
+{
+  "name": "Gravity Assist",
+  "subtitle": "Two planets, limited fuel. Let the second planet bend your path.",
+  "hint": "You don't have the fuel to fly straight there. Swing close past Ares and let its gravity curve you towards the zone.",
+  "fuel": 40,
+  "time_limit": 75,
+  "start": {
+    "pos": [
+      230,
+      425
+    ],
+    "vel": [
+      100,
+      0
+    ],
+    "angle": 90
+  },
+  "escape_zone": {
+    "pos": [
+      1150,
+      600
+    ],
+    "radius": 50
+  },
+  "planets": [
+    {
+      "name": "Terra",
+      "kind": "earth",
+      "pos": [
+        230,
+        540
+      ],
+      "radius": 55,
+      "mass": 1150
+    },
+    {
+      "name": "Ares",
+      "kind": "mars",
+      "pos": [
+        720,
+        290
+      ],
+      "radius": 68,
+      "mass": 1900
+    }
+  ]
+}

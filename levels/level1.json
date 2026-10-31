@@ -1,0 +1,12 @@
+{
+  "name": "Escape the Planet",
+  "subtitle": "One planet. Learn to thrust, rotate and break free of orbit.",
+  "hint": "You start in orbit. Point along your direction of travel (prograde) and thrust to raise your orbit, then aim for the green escape zone.",
+  "fuel": 100,
+  "time_limit": 60,
+  "start": { "pos": [380, 290], "vel": [110, 0], "angle": 90 },
+  "escape_zone": { "pos": [1080, 170], "radius": 55 },
+  "planets": [
+    { "name": "Terra", "kind": "earth", "pos": [380, 430], "radius": 70, "mass": 1694 }
+  ]
+}

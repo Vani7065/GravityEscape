@@ -1,0 +1,72 @@
+{
+  "name": "Dangerous System",
+  "subtitle": "A giant, its moving moon and a lava world. Every planet pulls at once.",
+  "hint": "Every planet pulls on you at the same time and Selene is moving. Watch the predicted path and make small, early corrections to save fuel.",
+  "fuel": 50,
+  "time_limit": 90,
+  "start": {
+    "pos": [
+      190,
+      330
+    ],
+    "vel": [
+      95,
+      0
+    ],
+    "angle": 90
+  },
+  "escape_zone": {
+    "pos": [
+      1170,
+      610
+    ],
+    "radius": 48
+  },
+  "planets": [
+    {
+      "name": "Glacia",
+      "kind": "ice",
+      "pos": [
+        190,
+        430
+      ],
+      "radius": 48,
+      "mass": 900
+    },
+    {
+      "name": "Jove",
+      "kind": "gas",
+      "pos": [
+        640,
+        380
+      ],
+      "radius": 85,
+      "mass": 3400
+    },
+    {
+      "name": "Selene",
+      "kind": "moon",
+      "radius": 24,
+      "mass": 250,
+      "orbit": {
+        "center": [
+          640,
+          380
+        ],
+        "radius": 205,
+        "period": 16,
+        "phase": 200
+      }
+    },
+    {
+      "name": "Vulcan",
+      "kind": "lava",
+      "pos": [
+        1040,
+        170
+      ],
+      "radius": 55,
+      "mass": 1500
+    }
+  ]
+}
